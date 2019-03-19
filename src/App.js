@@ -1,28 +1,33 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Card from "./components/card"
+import friends from "./friends.json"
+import Navbar from "./components/navbar";
+import Footer from "./components/card";
+import Wrapper from "./components/wrapper";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+  // Setting this.state.friends to the friends json array
+  state = {
+    friends,
+  };
+
+render () {
+  return (
+    <div>
+      <Navbar />
+      <Wrapper>
+        {this.state.friends.map(friends => (
+          <Card
+            id={friends.id}
+            image={friends.image}
+
+          />
+        ))}
+      </Wrapper>
+      <Footer />
+    </div>
+  );
+}
 }
 
 export default App;

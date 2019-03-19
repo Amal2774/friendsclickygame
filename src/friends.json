@@ -1,0 +1,38 @@
+[
+    {
+        "id": "rachel",
+        "image": "./images/rachel.png"
+    },
+    {
+        "id": "ross",
+        "image": "./images/ross.jpg"
+    },
+    {
+        "id": "chandler",
+        "image": "./images/chandler.jpg"
+    },
+    {
+        "id": "gunther",
+        "image": "./images/gunther.jpeg"
+    },
+    {
+        "id": "janice",
+        "image": "./images/janice.jpg"
+    },
+    {
+        "id": "joey",
+        "image": "./images/joey"
+    },
+    {
+        "id": "monica",
+        "image": "./images/monica"
+    },
+    {
+        "id": "phoebe",
+        "image": "./images/phoebe"
+    },
+    {
+        "id": "richard",
+        "image": "./images/richard"
+    }
+]
