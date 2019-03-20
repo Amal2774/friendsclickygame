@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-// import "./style.css";
+import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
@@ -11,12 +11,11 @@ function Navbar() {
       </div>
       <div>
         <ul className="navbar-nav">
-          <li className="nav-item">
+          <li className="nav-item navList">
           </li>
-          <li className="nav-item">
+          <li className="nav-item navList">
           </li>
-          <li className="nav-item">
-
+          <li className="nav-item navList">
           </li>
         </ul>
       </div>

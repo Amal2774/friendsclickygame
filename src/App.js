@@ -19,8 +19,7 @@ render () {
         {this.state.friends.map(friends => (
           <Card
             id={friends.id}
-            image={friends.image}
-
+            // image={friends.image}
           />
         ))}
       </Wrapper>
